@@ -1,0 +1,5605 @@
+{
+  "ABIA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "1",
+        "name": "ABA NORTH",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "02",
+        "id": "2",
+        "name": "ABA SOUTH",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "03",
+        "id": "3",
+        "name": "AROCHUKWU",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "04",
+        "id": "4",
+        "name": "BENDE",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "05",
+        "id": "5",
+        "name": "IKWUANO",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "06",
+        "id": "6",
+        "name": "ISIALA NGWA NORTH",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "07",
+        "id": "7",
+        "name": "ISIALA NGWA SOUTH",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "08",
+        "id": "8",
+        "name": "ISUIKWUATO",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "09",
+        "id": "9",
+        "name": "OBINGWA",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "10",
+        "id": "10",
+        "name": "OHAFIA",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "11",
+        "id": "11",
+        "name": "OSISIOMA",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "12",
+        "id": "12",
+        "name": "UGWUNAGBO",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "13",
+        "id": "13",
+        "name": "UKWA EAST",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "14",
+        "id": "14",
+        "name": "UKWA  WEST",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "15",
+        "id": "15",
+        "name": "UMUAHIA NORTH",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "16",
+        "id": "16",
+        "name": "UMUAHIA  SOUTH",
+        "stateId": 1,
+        "state_id": "1"
+      },
+      {
+        "abbreviation": "17",
+        "id": "17",
+        "name": "UMU - NNEOCHI",
+        "stateId": 1,
+        "state_id": "1"
+      }
+    ],
+    "state_id": 1
+  },
+  "ADAMAWA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "18",
+        "name": "DEMSA",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "02",
+        "id": "19",
+        "name": "FUFORE",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "03",
+        "id": "20",
+        "name": "GANYE",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "04",
+        "id": "21",
+        "name": "GIRE 1",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "05",
+        "id": "22",
+        "name": "GOMBI",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "06",
+        "id": "23",
+        "name": "GUYUK",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "07",
+        "id": "24",
+        "name": "HONG",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "08",
+        "id": "25",
+        "name": "JADA",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "09",
+        "id": "26",
+        "name": "LAMURDE",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "10",
+        "id": "27",
+        "name": "MADAGALI",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "11",
+        "id": "28",
+        "name": "MAIHA",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "12",
+        "id": "29",
+        "name": "MAYO - BELWA",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "13",
+        "id": "30",
+        "name": "MICHIKA",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "14",
+        "id": "31",
+        "name": "MUBI NORTH",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "15",
+        "id": "32",
+        "name": "MUBI SOUTH",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "16",
+        "id": "33",
+        "name": "NUMAN",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "17",
+        "id": "34",
+        "name": "SHELLENG",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "18",
+        "id": "35",
+        "name": "SONG",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "19",
+        "id": "36",
+        "name": "TOUNGO",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "20",
+        "id": "37",
+        "name": "YOLA NORTH",
+        "stateId": 2,
+        "state_id": "2"
+      },
+      {
+        "abbreviation": "21",
+        "id": "38",
+        "name": "YOLA SOUTH",
+        "stateId": 2,
+        "state_id": "2"
+      }
+    ],
+    "state_id": 2
+  },
+  "AKWA IBOM": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "39",
+        "name": "ABAK",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "02",
+        "id": "40",
+        "name": "EASTERN OBOLO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "03",
+        "id": "41",
+        "name": "EKET",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "04",
+        "id": "42",
+        "name": "ESIT EKET (UQUO)",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "05",
+        "id": "43",
+        "name": "ESSIEN UDIM",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "06",
+        "id": "44",
+        "name": "ETIM EKPO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "07",
+        "id": "45",
+        "name": "ETINAN",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "08",
+        "id": "46",
+        "name": "IBENO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "09",
+        "id": "47",
+        "name": "IBESIKPO ASUTAN",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "10",
+        "id": "48",
+        "name": "IBIONO IBOM",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "11",
+        "id": "49",
+        "name": "IKA",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "12",
+        "id": "50",
+        "name": "IKONO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "13",
+        "id": "51",
+        "name": "IKOT ABASI",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "14",
+        "id": "52",
+        "name": "IKOT EKPENE",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "15",
+        "id": "53",
+        "name": "INI",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "16",
+        "id": "54",
+        "name": "ITU",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "17",
+        "id": "55",
+        "name": "MBO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "18",
+        "id": "56",
+        "name": "MKPAT ENIN",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "19",
+        "id": "57",
+        "name": "NSIT ATAI",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "20",
+        "id": "58",
+        "name": "NSIT IBOM",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "21",
+        "id": "59",
+        "name": "NSIT UBIUM",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "22",
+        "id": "60",
+        "name": "OBOT AKARA",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "23",
+        "id": "61",
+        "name": "OKOBO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "24",
+        "id": "62",
+        "name": "ONNA",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "25",
+        "id": "63",
+        "name": "ORON",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "26",
+        "id": "64",
+        "name": "ORUK ANAM",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "27",
+        "id": "65",
+        "name": "UDUNG UKO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "28",
+        "id": "66",
+        "name": "UKANAFUN",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "29",
+        "id": "67",
+        "name": "URUAN",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "30",
+        "id": "68",
+        "name": "URUE OFFONG/ORUKO",
+        "stateId": 3,
+        "state_id": "3"
+      },
+      {
+        "abbreviation": "31",
+        "id": "69",
+        "name": "UYO",
+        "stateId": 3,
+        "state_id": "3"
+      }
+    ],
+    "state_id": 3
+  },
+  "ANAMBRA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "70",
+        "name": "AGUATA",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "02",
+        "id": "71",
+        "name": "AYAMELUM",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "03",
+        "id": "72",
+        "name": "ANAMBRA EAST",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "04",
+        "id": "73",
+        "name": "ANAMBRA WEST",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "05",
+        "id": "74",
+        "name": "ANAOCHA",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "06",
+        "id": "75",
+        "name": "AWKA NORTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "07",
+        "id": "76",
+        "name": "AWKA SOUTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "08",
+        "id": "77",
+        "name": "DUNUKOFIA",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "09",
+        "id": "78",
+        "name": "EKWUSIGO",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "10",
+        "id": "79",
+        "name": "IDEMILI NORTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "11",
+        "id": "80",
+        "name": "IDEMILI-SOUTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "12",
+        "id": "81",
+        "name": "IHALA",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "13",
+        "id": "82",
+        "name": "NJIKOKA",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "14",
+        "id": "83",
+        "name": "NNEWI NORTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "15",
+        "id": "84",
+        "name": "NNEWI SOUTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "16",
+        "id": "85",
+        "name": "OGBARU",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "17",
+        "id": "86",
+        "name": "ONITSHA-NORTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "18",
+        "id": "87",
+        "name": "ONITSHA -SOUTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "19",
+        "id": "88",
+        "name": "ORUMBA NORTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "20",
+        "id": "89",
+        "name": "ORUMBA  SOUTH",
+        "stateId": 4,
+        "state_id": "4"
+      },
+      {
+        "abbreviation": "21",
+        "id": "90",
+        "name": "OYI",
+        "stateId": 4,
+        "state_id": "4"
+      }
+    ],
+    "state_id": 4
+  },
+  "BAUCHI": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "91",
+        "name": "ALKALERI",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "02",
+        "id": "92",
+        "name": "BAUCHI",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "03",
+        "id": "93",
+        "name": "BOGORO",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "04",
+        "id": "94",
+        "name": "DAMBAM",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "05",
+        "id": "95",
+        "name": "DARAZO",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "06",
+        "id": "96",
+        "name": "DASS",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "07",
+        "id": "97",
+        "name": "GAMAWA",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "08",
+        "id": "98",
+        "name": "GANJUWA",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "09",
+        "id": "99",
+        "name": "GIADE",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "10",
+        "id": "100",
+        "name": "ITAS/GADAU",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "11",
+        "id": "101",
+        "name": "JAMA'ARE",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "12",
+        "id": "102",
+        "name": "KATAGUM",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "13",
+        "id": "103",
+        "name": "KIRFI",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "14",
+        "id": "104",
+        "name": "MISAU",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "15",
+        "id": "105",
+        "name": "NINGI",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "16",
+        "id": "106",
+        "name": "SHIRA",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "17",
+        "id": "107",
+        "name": "TAFAWA BALEWA",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "18",
+        "id": "108",
+        "name": "TORO",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "19",
+        "id": "109",
+        "name": "WARJI",
+        "stateId": 5,
+        "state_id": "5"
+      },
+      {
+        "abbreviation": "20",
+        "id": "110",
+        "name": "ZAKI",
+        "stateId": 5,
+        "state_id": "5"
+      }
+    ],
+    "state_id": 5
+  },
+  "BAYELSA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "111",
+        "name": "BRASS",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "02",
+        "id": "112",
+        "name": "EKEREMOR",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "03",
+        "id": "113",
+        "name": "KOLOKUMA/OPOKUMA",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "04",
+        "id": "114",
+        "name": "NEMBE",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "05",
+        "id": "115",
+        "name": "OGBIA",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "06",
+        "id": "116",
+        "name": "SAGBAMA",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "07",
+        "id": "117",
+        "name": "SOUTHERN IJAW",
+        "stateId": 6,
+        "state_id": "6"
+      },
+      {
+        "abbreviation": "08",
+        "id": "118",
+        "name": "YENAGOA",
+        "stateId": 6,
+        "state_id": "6"
+      }
+    ],
+    "state_id": 6
+  },
+  "BENUE": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "119",
+        "name": "ADO",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "02",
+        "id": "120",
+        "name": "AGATU",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "03",
+        "id": "121",
+        "name": "APA",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "04",
+        "id": "122",
+        "name": "BURUKU",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "05",
+        "id": "123",
+        "name": "GBOKO",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "06",
+        "id": "124",
+        "name": "GUMA",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "07",
+        "id": "125",
+        "name": "GWER EAST",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "08",
+        "id": "126",
+        "name": "GWER WEST",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "09",
+        "id": "127",
+        "name": "KATSINA-ALA",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "10",
+        "id": "128",
+        "name": "KONSHISHA",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "11",
+        "id": "129",
+        "name": "KWANDE",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "12",
+        "id": "130",
+        "name": "LOGO",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "13",
+        "id": "131",
+        "name": "MAKURDI",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "14",
+        "id": "132",
+        "name": "OBI",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "15",
+        "id": "133",
+        "name": "OGBADIBO",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "16",
+        "id": "134",
+        "name": "OJU",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "17",
+        "id": "135",
+        "name": "OHIMINI",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "18",
+        "id": "136",
+        "name": "OKPOKWU",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "19",
+        "id": "137",
+        "name": "OTUKPO",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "20",
+        "id": "138",
+        "name": "TARKA",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "21",
+        "id": "139",
+        "name": "UKUM",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "22",
+        "id": "140",
+        "name": "USHONGO",
+        "stateId": 7,
+        "state_id": "7"
+      },
+      {
+        "abbreviation": "23",
+        "id": "141",
+        "name": "VANDEIKYA",
+        "stateId": 7,
+        "state_id": "7"
+      }
+    ],
+    "state_id": 7
+  },
+  "BORNO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "142",
+        "name": "ABADAM",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "02",
+        "id": "143",
+        "name": "ASKIRA / UBA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "03",
+        "id": "144",
+        "name": "BAMA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "04",
+        "id": "145",
+        "name": "BAYO",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "05",
+        "id": "146",
+        "name": "BIU",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "06",
+        "id": "147",
+        "name": "CHIBOK",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "07",
+        "id": "148",
+        "name": "DAMBOA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "08",
+        "id": "149",
+        "name": "DIKWA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "09",
+        "id": "150",
+        "name": "GUBIO",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "10",
+        "id": "151",
+        "name": "GUZAMALA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "11",
+        "id": "152",
+        "name": "GWOZA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "12",
+        "id": "153",
+        "name": "HAWUL",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "13",
+        "id": "154",
+        "name": "JERE",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "14",
+        "id": "155",
+        "name": "KAGA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "15",
+        "id": "156",
+        "name": "KALA BALGE",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "16",
+        "id": "157",
+        "name": "KONDUGA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "17",
+        "id": "158",
+        "name": "KUKAWA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "18",
+        "id": "159",
+        "name": "KWAYA / KUSAR",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "19",
+        "id": "160",
+        "name": "MAFA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "20",
+        "id": "161",
+        "name": "MAGUMERI",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "21",
+        "id": "162",
+        "name": "MAIDUGURI M. C.",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "22",
+        "id": "163",
+        "name": "MARTE",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "23",
+        "id": "164",
+        "name": "MOBBAR",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "24",
+        "id": "165",
+        "name": "MONGUNO",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "25",
+        "id": "166",
+        "name": "NGALA",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "26",
+        "id": "167",
+        "name": "NGANZAI",
+        "stateId": 8,
+        "state_id": "8"
+      },
+      {
+        "abbreviation": "27",
+        "id": "168",
+        "name": "SHANI",
+        "stateId": 8,
+        "state_id": "8"
+      }
+    ],
+    "state_id": 8
+  },
+  "CROSS RIVER": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "169",
+        "name": "ABI",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "02",
+        "id": "170",
+        "name": "AKAMKPA",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "03",
+        "id": "171",
+        "name": "AKPABUYO",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "04",
+        "id": "172",
+        "name": "BAKASSI",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "05",
+        "id": "173",
+        "name": "BEKWARRA",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "06",
+        "id": "174",
+        "name": "BIASE",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "07",
+        "id": "175",
+        "name": "BOKI",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "08",
+        "id": "176",
+        "name": "CALABAR MUNICIPALITY",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "09",
+        "id": "177",
+        "name": "CALABAR SOUTH",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "10",
+        "id": "178",
+        "name": "ETUNG",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "11",
+        "id": "179",
+        "name": "IKOM",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "12",
+        "id": "180",
+        "name": "OBANLIKU",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "13",
+        "id": "181",
+        "name": "OBUBRA",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "14",
+        "id": "182",
+        "name": "OBUDU",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "15",
+        "id": "183",
+        "name": "ODUKPANI",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "16",
+        "id": "184",
+        "name": "OGOJA",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "17",
+        "id": "185",
+        "name": "YAKURR",
+        "stateId": 9,
+        "state_id": "9"
+      },
+      {
+        "abbreviation": "18",
+        "id": "186",
+        "name": "YALA",
+        "stateId": 9,
+        "state_id": "9"
+      }
+    ],
+    "state_id": 9
+  },
+  "DELTA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "187",
+        "name": "ANIOCHA NORTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "02",
+        "id": "188",
+        "name": "ANIOCHA - SOUTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "03",
+        "id": "189",
+        "name": "BOMADI",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "04",
+        "id": "190",
+        "name": "BURUTU",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "05",
+        "id": "191",
+        "name": "ETHIOPE  EAST",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "06",
+        "id": "192",
+        "name": "ETHIOPE  WEST",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "07",
+        "id": "193",
+        "name": "IKA NORTH- EAST",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "08",
+        "id": "194",
+        "name": "IKA - SOUTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "09",
+        "id": "195",
+        "name": "ISOKO NORTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "10",
+        "id": "196",
+        "name": "ISOKO SOUTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "11",
+        "id": "197",
+        "name": "NDOKWA EAST",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "12",
+        "id": "198",
+        "name": "NDOKWA WEST",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "13",
+        "id": "199",
+        "name": "OKPE",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "14",
+        "id": "200",
+        "name": "OSHIMILI - NORTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "15",
+        "id": "201",
+        "name": "OSHIMILI - SOUTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "16",
+        "id": "202",
+        "name": "PATANI",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "17",
+        "id": "203",
+        "name": "SAPELE",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "18",
+        "id": "204",
+        "name": "UDU",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "19",
+        "id": "205",
+        "name": "UGHELLI NORTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "20",
+        "id": "206",
+        "name": "UGHELLI SOUTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "21",
+        "id": "207",
+        "name": "UKWUANI",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "22",
+        "id": "208",
+        "name": "UVWIE",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "23",
+        "id": "209",
+        "name": "WARRI  NORTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "24",
+        "id": "210",
+        "name": "WARRI SOUTH",
+        "stateId": 10,
+        "state_id": "10"
+      },
+      {
+        "abbreviation": "25",
+        "id": "211",
+        "name": "WARRI SOUTH  WEST",
+        "stateId": 10,
+        "state_id": "10"
+      }
+    ],
+    "state_id": 10
+  },
+  "EBONYI": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "212",
+        "name": "ABAKALIKI",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "02",
+        "id": "213",
+        "name": "AFIKPO NORTH",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "03",
+        "id": "214",
+        "name": "AFIKPO  SOUTH",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "04",
+        "id": "215",
+        "name": "EBONYI",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "05",
+        "id": "216",
+        "name": "EZZA NORTH",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "06",
+        "id": "217",
+        "name": "EZZA SOUTH",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "07",
+        "id": "218",
+        "name": "IKWO",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "08",
+        "id": "219",
+        "name": "ISHIELU",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "09",
+        "id": "220",
+        "name": "IVO",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "10",
+        "id": "221",
+        "name": "IZZI",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "11",
+        "id": "222",
+        "name": "OHAOZARA",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "12",
+        "id": "223",
+        "name": "OHAUKWU",
+        "stateId": 11,
+        "state_id": "11"
+      },
+      {
+        "abbreviation": "13",
+        "id": "224",
+        "name": "ONICHA",
+        "stateId": 11,
+        "state_id": "11"
+      }
+    ],
+    "state_id": 11
+  },
+  "EDO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "225",
+        "name": "AKOKO EDO",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "02",
+        "id": "226",
+        "name": "EGOR",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "03",
+        "id": "227",
+        "name": "ESAN CENTRAL",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "04",
+        "id": "228",
+        "name": "ESAN NORTH EAST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "05",
+        "id": "229",
+        "name": "ESAN SOUTH EAST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "06",
+        "id": "230",
+        "name": "ESAN WEST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "07",
+        "id": "231",
+        "name": "ETSAKO CENTRAL",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "08",
+        "id": "232",
+        "name": "ETSAKO EAST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "09",
+        "id": "233",
+        "name": "ETSAKO  WEST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "10",
+        "id": "234",
+        "name": "IGUEBEN",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "11",
+        "id": "235",
+        "name": "IKPOBA/OKHA",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "12",
+        "id": "236",
+        "name": "OREDO",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "13",
+        "id": "237",
+        "name": "ORHIONMWON",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "14",
+        "id": "238",
+        "name": "OVIA NORTH EAST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "15",
+        "id": "239",
+        "name": "OVIA SOUTH WEST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "16",
+        "id": "240",
+        "name": "OWAN EAST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "17",
+        "id": "241",
+        "name": "OWAN WEST",
+        "stateId": 12,
+        "state_id": "12"
+      },
+      {
+        "abbreviation": "18",
+        "id": "242",
+        "name": "UHUNMWODE",
+        "stateId": 12,
+        "state_id": "12"
+      }
+    ],
+    "state_id": 12
+  },
+  "EKITI": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "243",
+        "name": "ADO EKITI",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "02",
+        "id": "244",
+        "name": "EFON",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "03",
+        "id": "245",
+        "name": "EKITI EAST",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "04",
+        "id": "246",
+        "name": "EKITI WEST",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "05",
+        "id": "247",
+        "name": "EKITI SOUTH WEST",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "06",
+        "id": "248",
+        "name": "EMURE",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "07",
+        "id": "249",
+        "name": "GBONYIN",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "08",
+        "id": "250",
+        "name": "IDO / OSI",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "09",
+        "id": "251",
+        "name": "IJERO",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "10",
+        "id": "252",
+        "name": "IKERE",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "11",
+        "id": "253",
+        "name": "IKOLE",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "12",
+        "id": "254",
+        "name": "ILEJEMEJE",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "13",
+        "id": "255",
+        "name": "IREPODUN / IFELODUN",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "14",
+        "id": "256",
+        "name": "ISE / ORUN",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "15",
+        "id": "257",
+        "name": "MOBA",
+        "stateId": 13,
+        "state_id": "13"
+      },
+      {
+        "abbreviation": "16",
+        "id": "258",
+        "name": "OYE",
+        "stateId": 13,
+        "state_id": "13"
+      }
+    ],
+    "state_id": 13
+  },
+  "ENUGU": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "259",
+        "name": "ANINRI",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "02",
+        "id": "260",
+        "name": "AWGU",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "03",
+        "id": "261",
+        "name": "ENUGU EAST",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "04",
+        "id": "262",
+        "name": "ENUGU NORTH",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "05",
+        "id": "263",
+        "name": "ENUGU SOUTH",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "06",
+        "id": "264",
+        "name": "EZEAGU",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "07",
+        "id": "265",
+        "name": "IGBO ETITI",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "08",
+        "id": "266",
+        "name": "IGBO EZE NORTH",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "09",
+        "id": "267",
+        "name": "IGBO EZE SOUTH",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "10",
+        "id": "268",
+        "name": "ISI UZO",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "11",
+        "id": "269",
+        "name": "NKANU EAST",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "12",
+        "id": "270",
+        "name": "NKANU WEST",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "13",
+        "id": "271",
+        "name": "NSUKKA",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "14",
+        "id": "272",
+        "name": "OJI-RIVER",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "15",
+        "id": "273",
+        "name": "UDENU",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "16",
+        "id": "274",
+        "name": "UDI",
+        "stateId": 14,
+        "state_id": "14"
+      },
+      {
+        "abbreviation": "17",
+        "id": "275",
+        "name": "UZO-UWANI",
+        "stateId": 14,
+        "state_id": "14"
+      }
+    ],
+    "state_id": 14
+  },
+  "FEDERAL CAPITAL TERRITORY": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "276",
+        "name": "ABAJI",
+        "stateId": 37,
+        "state_id": "15"
+      },
+      {
+        "abbreviation": "02",
+        "id": "277",
+        "name": "BWARI",
+        "stateId": 37,
+        "state_id": "15"
+      },
+      {
+        "abbreviation": "03",
+        "id": "278",
+        "name": "GWAGWALADA",
+        "stateId": 37,
+        "state_id": "15"
+      },
+      {
+        "abbreviation": "04",
+        "id": "279",
+        "name": "KUJE",
+        "stateId": 37,
+        "state_id": "15"
+      },
+      {
+        "abbreviation": "05",
+        "id": "280",
+        "name": "KWALI",
+        "stateId": 37,
+        "state_id": "15"
+      },
+      {
+        "abbreviation": "06",
+        "id": "281",
+        "name": "MUNICIPAL",
+        "stateId": 37,
+        "state_id": "15"
+      }
+    ],
+    "state_id": 37
+  },
+  "GOMBE": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "282",
+        "name": "AKKO",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "02",
+        "id": "283",
+        "name": "BALANGA",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "03",
+        "id": "284",
+        "name": "BILLIRI",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "04",
+        "id": "285",
+        "name": "DUKKU",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "05",
+        "id": "286",
+        "name": "FUNAKAYE",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "06",
+        "id": "287",
+        "name": "GOMBE",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "07",
+        "id": "288",
+        "name": "KALTUNGO",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "08",
+        "id": "289",
+        "name": "KWAMI",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "09",
+        "id": "290",
+        "name": "NAFADA",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "10",
+        "id": "291",
+        "name": "SHONGOM",
+        "stateId": 15,
+        "state_id": "16"
+      },
+      {
+        "abbreviation": "11",
+        "id": "292",
+        "name": "YALMALTU/ DEBA",
+        "stateId": 15,
+        "state_id": "16"
+      }
+    ],
+    "state_id": 15
+  },
+  "IMO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "293",
+        "name": "ABOH MBAISE",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "02",
+        "id": "294",
+        "name": "AHIAZU MBAISE",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "03",
+        "id": "295",
+        "name": "EHIME MBANO",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "04",
+        "id": "296",
+        "name": "EZINIHITTE MBAISE",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "05",
+        "id": "297",
+        "name": "IDEATO NORTH",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "06",
+        "id": "298",
+        "name": "IDEATO SOUTH",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "07",
+        "id": "299",
+        "name": "IHITTE/UBOMA (ISINWEKE)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "08",
+        "id": "300",
+        "name": "IKEDURU (IHO)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "09",
+        "id": "301",
+        "name": "ISIALA MBANO (UMUELEMAI)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "10",
+        "id": "302",
+        "name": "ISU (UMUNDUGBA)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "11",
+        "id": "303",
+        "name": "MBAITOLI (NWAORIEUBI)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "12",
+        "id": "304",
+        "name": "NGOR OKPALA (UMUNEKE)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "13",
+        "id": "305",
+        "name": "NJABA (NNENASA)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "14",
+        "id": "306",
+        "name": "NKWERRE",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "15",
+        "id": "307",
+        "name": "NWANGELE (ONU-NWANGELE AMAIGBO)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "16",
+        "id": "308",
+        "name": "OBOWO (OTOKO)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "17",
+        "id": "309",
+        "name": "OGUTA (OGUTA)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "18",
+        "id": "310",
+        "name": "OHAJI/EGBEMA (MMAHU-EGBEMA)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "19",
+        "id": "311",
+        "name": "OKIGWE  (OKIGWE)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "20",
+        "id": "312",
+        "name": "ONUIMO (OKWE)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "21",
+        "id": "313",
+        "name": "ORLU",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "22",
+        "id": "314",
+        "name": "ORSU (AWO IDEMILI)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "23",
+        "id": "315",
+        "name": "ORU-EAST",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "24",
+        "id": "316",
+        "name": "ORU WEST (MGBIDI)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "25",
+        "id": "317",
+        "name": "OWERRI MUNICIPAL",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "26",
+        "id": "318",
+        "name": "OWERRI NORTH (ORIE URATTA)",
+        "stateId": 16,
+        "state_id": "17"
+      },
+      {
+        "abbreviation": "27",
+        "id": "319",
+        "name": "OWERRI WEST (UMUGUMA)",
+        "stateId": 16,
+        "state_id": "17"
+      }
+    ],
+    "state_id": 16
+  },
+  "JIGAWA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "320",
+        "name": "AUYO",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "02",
+        "id": "321",
+        "name": "BABURA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "03",
+        "id": "322",
+        "name": "BIRNIN KUDU",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "04",
+        "id": "323",
+        "name": "BIRNIWA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "05",
+        "id": "324",
+        "name": "BUJI",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "06",
+        "id": "325",
+        "name": "DUTSE",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "07",
+        "id": "326",
+        "name": "GARKI",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "08",
+        "id": "327",
+        "name": "GAGARAWA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "09",
+        "id": "328",
+        "name": "GUMEL",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "10",
+        "id": "329",
+        "name": "GURI",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "11",
+        "id": "330",
+        "name": "GWARAM",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "12",
+        "id": "331",
+        "name": "GWIWA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "13",
+        "id": "332",
+        "name": "HADEJIA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "14",
+        "id": "333",
+        "name": "JAHUN",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "15",
+        "id": "334",
+        "name": "KAFIN HAUSA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "16",
+        "id": "335",
+        "name": "KAUGAMA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "17",
+        "id": "336",
+        "name": "KAZAURE",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "18",
+        "id": "337",
+        "name": "KIRIKA SAMMA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "19",
+        "id": "338",
+        "name": "KIYAWA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "20",
+        "id": "339",
+        "name": "MAIGATARI",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "21",
+        "id": "340",
+        "name": "MALAM MADORI",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "22",
+        "id": "341",
+        "name": "MIGA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "23",
+        "id": "342",
+        "name": "RINGIM",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "24",
+        "id": "343",
+        "name": "RONI",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "25",
+        "id": "344",
+        "name": "SULE-TANKARKAR",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "26",
+        "id": "345",
+        "name": "TAURA",
+        "stateId": 17,
+        "state_id": "18"
+      },
+      {
+        "abbreviation": "27",
+        "id": "346",
+        "name": "YANKWASHI",
+        "stateId": 17,
+        "state_id": "18"
+      }
+    ],
+    "state_id": 17
+  },
+  "KADUNA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "347",
+        "name": "BIRNIN GWARI",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "02",
+        "id": "348",
+        "name": "CHIKUN",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "03",
+        "id": "349",
+        "name": "GIWA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "04",
+        "id": "350",
+        "name": "IGABI",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "05",
+        "id": "351",
+        "name": "IKARA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "06",
+        "id": "352",
+        "name": "JABA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "07",
+        "id": "353",
+        "name": "JEMA'A",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "08",
+        "id": "354",
+        "name": "KACHIA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "09",
+        "id": "355",
+        "name": "KADUNA NORTH",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "10",
+        "id": "356",
+        "name": "KADUNA SOUTH",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "11",
+        "id": "357",
+        "name": "KAGARKO",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "12",
+        "id": "358",
+        "name": "KAJURU",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "13",
+        "id": "359",
+        "name": "KAURA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "14",
+        "id": "360",
+        "name": "KAURU",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "15",
+        "id": "361",
+        "name": "KUBAU",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "16",
+        "id": "362",
+        "name": "KUDAN",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "17",
+        "id": "363",
+        "name": "LERE",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "18",
+        "id": "364",
+        "name": "MAKARFI",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "19",
+        "id": "365",
+        "name": "SABON GARI",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "20",
+        "id": "366",
+        "name": "SANGA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "21",
+        "id": "367",
+        "name": "SOBA",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "22",
+        "id": "368",
+        "name": "ZANGON KATAF",
+        "stateId": 18,
+        "state_id": "19"
+      },
+      {
+        "abbreviation": "23",
+        "id": "369",
+        "name": "ZARIA",
+        "stateId": 18,
+        "state_id": "19"
+      }
+    ],
+    "state_id": 18
+  },
+  "KANO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "370",
+        "name": "AJINGI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "02",
+        "id": "371",
+        "name": "ALBASU",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "03",
+        "id": "372",
+        "name": "BAGWAI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "04",
+        "id": "373",
+        "name": "BEBEJI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "05",
+        "id": "374",
+        "name": "BICHI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "06",
+        "id": "375",
+        "name": "BUNKURE",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "07",
+        "id": "376",
+        "name": "DALA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "08",
+        "id": "377",
+        "name": "DANBATA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "09",
+        "id": "378",
+        "name": "DAWAKI KUDU",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "10",
+        "id": "379",
+        "name": "DAWAKI TOFA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "11",
+        "id": "380",
+        "name": "DOGUWA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "12",
+        "id": "381",
+        "name": "FAGGE",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "13",
+        "id": "382",
+        "name": "GABASAWA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "14",
+        "id": "383",
+        "name": "GARKO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "15",
+        "id": "384",
+        "name": "GARUN MALAM",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "16",
+        "id": "385",
+        "name": "GAYA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "17",
+        "id": "386",
+        "name": "GEZAWA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "18",
+        "id": "387",
+        "name": "GWALE",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "19",
+        "id": "388",
+        "name": "GWARZO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "20",
+        "id": "389",
+        "name": "KABO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "21",
+        "id": "390",
+        "name": "KANO MUNICIPAL",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "22",
+        "id": "391",
+        "name": "KARAYE",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "23",
+        "id": "392",
+        "name": "KIBIYA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "24",
+        "id": "393",
+        "name": "KIRU",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "25",
+        "id": "394",
+        "name": "KUMBOTSO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "26",
+        "id": "395",
+        "name": "KUNCHI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "27",
+        "id": "396",
+        "name": "KURA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "28",
+        "id": "397",
+        "name": "MADOBI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "29",
+        "id": "398",
+        "name": "MAKODA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "30",
+        "id": "399",
+        "name": "MINJIBIR",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "31",
+        "id": "400",
+        "name": "NASARAWA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "32",
+        "id": "401",
+        "name": "RANO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "33",
+        "id": "402",
+        "name": "RIMIN GADO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "34",
+        "id": "403",
+        "name": "ROGO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "35",
+        "id": "404",
+        "name": "SHANONO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "36",
+        "id": "405",
+        "name": "SUMAILA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "37",
+        "id": "406",
+        "name": "TAKAI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "38",
+        "id": "407",
+        "name": "TARAUNI",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "39",
+        "id": "408",
+        "name": "TOFA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "40",
+        "id": "409",
+        "name": "TSANYAWA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "41",
+        "id": "410",
+        "name": "TUDUN WADA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "42",
+        "id": "411",
+        "name": "UNGOGO",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "43",
+        "id": "412",
+        "name": "WARAWA",
+        "stateId": 19,
+        "state_id": "20"
+      },
+      {
+        "abbreviation": "44",
+        "id": "413",
+        "name": "WUDIL",
+        "stateId": 19,
+        "state_id": "20"
+      }
+    ],
+    "state_id": 19
+  },
+  "KATSINA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "414",
+        "name": "BAKORI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "02",
+        "id": "415",
+        "name": "BATAGARAWA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "03",
+        "id": "416",
+        "name": "BATSARI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "04",
+        "id": "417",
+        "name": "BAURE",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "05",
+        "id": "418",
+        "name": "BINDAWA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "06",
+        "id": "419",
+        "name": "CHARANCHI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "07",
+        "id": "420",
+        "name": "DANDUME",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "08",
+        "id": "421",
+        "name": "DANJA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "09",
+        "id": "422",
+        "name": "DAN MUSA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "10",
+        "id": "423",
+        "name": "DAURA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "11",
+        "id": "424",
+        "name": "DUTSI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "12",
+        "id": "425",
+        "name": "DUTSIN-MA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "13",
+        "id": "426",
+        "name": "FASKARI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "14",
+        "id": "427",
+        "name": "FUNTUA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "15",
+        "id": "428",
+        "name": "INGAWA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "16",
+        "id": "429",
+        "name": "JIBIA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "17",
+        "id": "430",
+        "name": "KAFUR",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "18",
+        "id": "431",
+        "name": "KAITA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "19",
+        "id": "432",
+        "name": "KANKARA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "20",
+        "id": "433",
+        "name": "KANKIA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "21",
+        "id": "434",
+        "name": "KATSINA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "22",
+        "id": "435",
+        "name": "KURFI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "23",
+        "id": "436",
+        "name": "KUSADA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "24",
+        "id": "437",
+        "name": "MAI'ADUA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "25",
+        "id": "438",
+        "name": "MALUFASHI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "26",
+        "id": "439",
+        "name": "MANI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "27",
+        "id": "440",
+        "name": "MASHI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "28",
+        "id": "441",
+        "name": "MATAZU",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "29",
+        "id": "442",
+        "name": "MUSAWA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "30",
+        "id": "443",
+        "name": "RIMI",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "31",
+        "id": "444",
+        "name": "SABUWA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "32",
+        "id": "445",
+        "name": "SAFANA",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "33",
+        "id": "446",
+        "name": "SANDAMU",
+        "stateId": 20,
+        "state_id": "21"
+      },
+      {
+        "abbreviation": "34",
+        "id": "447",
+        "name": "ZANGO",
+        "stateId": 20,
+        "state_id": "21"
+      }
+    ],
+    "state_id": 20
+  },
+  "KEBBI": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "448",
+        "name": "ALIERO",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "02",
+        "id": "449",
+        "name": "AREWA",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "03",
+        "id": "450",
+        "name": "ARGUNGU",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "04",
+        "id": "451",
+        "name": "AUGIE",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "05",
+        "id": "452",
+        "name": "BAGUDO",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "06",
+        "id": "453",
+        "name": "BIRNIN KEBBI",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "07",
+        "id": "454",
+        "name": "BUNZA",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "08",
+        "id": "455",
+        "name": "DANDI",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "09",
+        "id": "456",
+        "name": "FAKAI",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "10",
+        "id": "457",
+        "name": "GWANDU",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "11",
+        "id": "458",
+        "name": "JEGA",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "12",
+        "id": "459",
+        "name": "KALGO",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "13",
+        "id": "460",
+        "name": "KOKO/BESSE",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "14",
+        "id": "461",
+        "name": "MAIYAMA",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "15",
+        "id": "462",
+        "name": "NGASKI",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "16",
+        "id": "463",
+        "name": "SAKABA",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "17",
+        "id": "464",
+        "name": "SHANGA",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "18",
+        "id": "465",
+        "name": "SURU",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "19",
+        "id": "466",
+        "name": "WASAGU/DANKO",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "20",
+        "id": "467",
+        "name": "YAURI",
+        "stateId": 21,
+        "state_id": "22"
+      },
+      {
+        "abbreviation": "21",
+        "id": "468",
+        "name": "ZURU",
+        "stateId": 21,
+        "state_id": "22"
+      }
+    ],
+    "state_id": 21
+  },
+  "KOGI": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "469",
+        "name": "ADAVI",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "02",
+        "id": "470",
+        "name": "AJAOKUTA",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "03",
+        "id": "471",
+        "name": "ANKPA",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "04",
+        "id": "472",
+        "name": "BASSA",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "05",
+        "id": "473",
+        "name": "DEKINA",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "06",
+        "id": "474",
+        "name": "IBAJI",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "07",
+        "id": "475",
+        "name": "IDAH",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "08",
+        "id": "476",
+        "name": "IGALAMELA/ODOLU",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "09",
+        "id": "477",
+        "name": "IJUMU",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "10",
+        "id": "478",
+        "name": "KABBA/BUNU",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "11",
+        "id": "479",
+        "name": "KOGI . K. K.",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "12",
+        "id": "480",
+        "name": "LOKOJA",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "13",
+        "id": "481",
+        "name": "MOPA MORO",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "14",
+        "id": "482",
+        "name": "OFU",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "15",
+        "id": "483",
+        "name": "OGORI MANGOGO",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "16",
+        "id": "484",
+        "name": "OKEHI",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "17",
+        "id": "485",
+        "name": "OKENE",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "18",
+        "id": "486",
+        "name": "OLAMABORO",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "19",
+        "id": "487",
+        "name": "OMALA",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "20",
+        "id": "488",
+        "name": "YAGBA EAST",
+        "stateId": 22,
+        "state_id": "23"
+      },
+      {
+        "abbreviation": "21",
+        "id": "489",
+        "name": "YAGBA WEST",
+        "stateId": 22,
+        "state_id": "23"
+      }
+    ],
+    "state_id": 22
+  },
+  "KWARA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "490",
+        "name": "ASA",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "02",
+        "id": "491",
+        "name": "BARUTEN",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "03",
+        "id": "492",
+        "name": "EDU",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "04",
+        "id": "493",
+        "name": "EKITI",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "05",
+        "id": "494",
+        "name": "IFELODUN",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "06",
+        "id": "495",
+        "name": "ILORIN EAST",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "07",
+        "id": "496",
+        "name": "ILORIN-SOUTH",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "08",
+        "id": "497",
+        "name": "ILORIN-WEST",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "09",
+        "id": "498",
+        "name": "IREPODUN",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "10",
+        "id": "499",
+        "name": "ISIN",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "11",
+        "id": "500",
+        "name": "KAIAMA",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "12",
+        "id": "501",
+        "name": "MORO",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "13",
+        "id": "502",
+        "name": "OFFA",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "14",
+        "id": "503",
+        "name": "OKE - ERO",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "15",
+        "id": "504",
+        "name": "OYUN",
+        "stateId": 23,
+        "state_id": "24"
+      },
+      {
+        "abbreviation": "16",
+        "id": "505",
+        "name": "PATIGI",
+        "stateId": 23,
+        "state_id": "24"
+      }
+    ],
+    "state_id": 23
+  },
+  "LAGOS": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "506",
+        "name": "AGEGE",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "02",
+        "id": "507",
+        "name": "AJEROMI/IFELODUN",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "03",
+        "id": "508",
+        "name": "ALIMOSHO",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "04",
+        "id": "509",
+        "name": "AMUWO-ODOFIN",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "05",
+        "id": "510",
+        "name": "APAPA",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "06",
+        "id": "511",
+        "name": "BADAGRY",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "07",
+        "id": "512",
+        "name": "EPE",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "08",
+        "id": "513",
+        "name": "ETI-OSA",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "09",
+        "id": "514",
+        "name": "IBEJU/LEKKI",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "10",
+        "id": "515",
+        "name": "IFAKO-IJAYE",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "11",
+        "id": "516",
+        "name": "IKEJA",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "12",
+        "id": "517",
+        "name": "IKORODU",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "13",
+        "id": "518",
+        "name": "KOSOFE",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "14",
+        "id": "519",
+        "name": "LAGOS ISLAND",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "15",
+        "id": "520",
+        "name": "LAGOS MAINLAND",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "16",
+        "id": "521",
+        "name": "MUSHIN",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "17",
+        "id": "522",
+        "name": "OJO",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "18",
+        "id": "523",
+        "name": "OSHODI/ISOLO",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "19",
+        "id": "524",
+        "name": "SOMOLU",
+        "stateId": 24,
+        "state_id": "25"
+      },
+      {
+        "abbreviation": "20",
+        "id": "525",
+        "name": "SURULERE",
+        "stateId": 24,
+        "state_id": "25"
+      }
+    ],
+    "state_id": 24
+  },
+  "NASARAWA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "526",
+        "name": "AKWANGA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "02",
+        "id": "527",
+        "name": "AWE",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "03",
+        "id": "528",
+        "name": "DOMA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "04",
+        "id": "529",
+        "name": "KARU",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "05",
+        "id": "530",
+        "name": "KEANA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "06",
+        "id": "531",
+        "name": "KEFFI",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "07",
+        "id": "532",
+        "name": "KOKONA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "08",
+        "id": "533",
+        "name": "LAFIA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "10",
+        "id": "534",
+        "name": "NASARAWA EGGON",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "12",
+        "id": "535",
+        "name": "TOTO",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "13",
+        "id": "536",
+        "name": "WAMBA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "09",
+        "id": "771",
+        "name": "NASARAWA",
+        "stateId": 25,
+        "state_id": "26"
+      },
+      {
+        "abbreviation": "11",
+        "id": "774",
+        "name": "OBI",
+        "stateId": 25,
+        "state_id": "26"
+      }
+    ],
+    "state_id": 25
+  },
+  "NIGER": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "537",
+        "name": "AGAIE",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "02",
+        "id": "538",
+        "name": "AGWARA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "03",
+        "id": "539",
+        "name": "BIDA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "04",
+        "id": "540",
+        "name": "BORGU",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "05",
+        "id": "541",
+        "name": "BOSSO",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "06",
+        "id": "542",
+        "name": "CHANCHAGA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "07",
+        "id": "543",
+        "name": "EDATTI",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "08",
+        "id": "544",
+        "name": "GBAKO",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "09",
+        "id": "545",
+        "name": "GURARA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "10",
+        "id": "546",
+        "name": "KATCHA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "11",
+        "id": "547",
+        "name": "KONTAGORA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "12",
+        "id": "548",
+        "name": "LAPAI",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "13",
+        "id": "549",
+        "name": "LAVUN",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "14",
+        "id": "550",
+        "name": "MAGAMA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "15",
+        "id": "551",
+        "name": "MARIGA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "16",
+        "id": "552",
+        "name": "MASHEGU",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "17",
+        "id": "553",
+        "name": "MOKWA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "18",
+        "id": "554",
+        "name": "MUNYA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "19",
+        "id": "555",
+        "name": "PAIKORO",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "20",
+        "id": "556",
+        "name": "RAFI",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "21",
+        "id": "557",
+        "name": "RIJAU",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "22",
+        "id": "558",
+        "name": "SHIRORO",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "23",
+        "id": "559",
+        "name": "SULEJA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "24",
+        "id": "560",
+        "name": "TAFA",
+        "stateId": 26,
+        "state_id": "27"
+      },
+      {
+        "abbreviation": "25",
+        "id": "561",
+        "name": "WUSHISHI",
+        "stateId": 26,
+        "state_id": "27"
+      }
+    ],
+    "state_id": 26
+  },
+  "OGUN": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "562",
+        "name": "ABEOKUTA NORTH",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "02",
+        "id": "563",
+        "name": "ABEOKUTA SOUTH",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "03",
+        "id": "564",
+        "name": "ADO ODO-OTA",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "04",
+        "id": "565",
+        "name": "EGBADO NORTH",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "05",
+        "id": "566",
+        "name": "EGBADO SOUTH",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "06",
+        "id": "567",
+        "name": "EWEKORO",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "07",
+        "id": "568",
+        "name": "IFO",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "08",
+        "id": "569",
+        "name": "IJEBU EAST",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "09",
+        "id": "570",
+        "name": "IJEBU NORTH",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "10",
+        "id": "571",
+        "name": "IJEBU NORTH EAST",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "11",
+        "id": "572",
+        "name": "IJEBU ODE",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "12",
+        "id": "573",
+        "name": "IKENNE",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "13",
+        "id": "574",
+        "name": "IMEKO/AFON",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "14",
+        "id": "575",
+        "name": "IPOKIA",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "15",
+        "id": "576",
+        "name": "OBAFEMI/OWODE",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "16",
+        "id": "577",
+        "name": "ODEDA",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "17",
+        "id": "578",
+        "name": "ODOGBOLU",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "18",
+        "id": "579",
+        "name": "OGUN WATER SIDE",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "19",
+        "id": "580",
+        "name": "REMO NORTH",
+        "stateId": 27,
+        "state_id": "28"
+      },
+      {
+        "abbreviation": "20",
+        "id": "581",
+        "name": "SAGAMU",
+        "stateId": 27,
+        "state_id": "28"
+      }
+    ],
+    "state_id": 27
+  },
+  "ONDO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "582",
+        "name": "AKOKO NORTH EAST",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "02",
+        "id": "583",
+        "name": "AKOKO NORTH WEST",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "03",
+        "id": "584",
+        "name": "AKOKO SOUTH EAST",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "04",
+        "id": "585",
+        "name": "AKOKO SOUTH WEST",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "05",
+        "id": "586",
+        "name": "AKURE NORTH",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "06",
+        "id": "587",
+        "name": "AKURE SOUTH",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "07",
+        "id": "588",
+        "name": "ESE-ODO",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "08",
+        "id": "589",
+        "name": "IDANRE",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "09",
+        "id": "590",
+        "name": "IFEDORE",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "10",
+        "id": "591",
+        "name": "ILAJE",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "11",
+        "id": "592",
+        "name": "ILEOLUJI/OKEIGBO",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "12",
+        "id": "593",
+        "name": "IRELE",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "13",
+        "id": "594",
+        "name": "ODIGBO",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "14",
+        "id": "595",
+        "name": "OKITIPUPA",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "15",
+        "id": "596",
+        "name": "ONDO EAST",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "16",
+        "id": "597",
+        "name": "ONDO WEST",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "17",
+        "id": "598",
+        "name": "OSE",
+        "stateId": 28,
+        "state_id": "29"
+      },
+      {
+        "abbreviation": "18",
+        "id": "599",
+        "name": "OWO",
+        "stateId": 28,
+        "state_id": "29"
+      }
+    ],
+    "state_id": 28
+  },
+  "OSUN": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "600",
+        "name": "ATAKUMOSA EAST",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "02",
+        "id": "601",
+        "name": "ATAKUMOSA WEST",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "03",
+        "id": "602",
+        "name": "AYEDAADE",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "04",
+        "id": "603",
+        "name": "AYEDIRE",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "05",
+        "id": "604",
+        "name": "BOLUWADURO",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "06",
+        "id": "605",
+        "name": "BORIPE",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "07",
+        "id": "606",
+        "name": "EDE NORTH",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "08",
+        "id": "607",
+        "name": "EDE SOUTH",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "09",
+        "id": "608",
+        "name": "EGBEDORE",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "10",
+        "id": "609",
+        "name": "EJIGBO",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "11",
+        "id": "610",
+        "name": "IFE CENTRAL",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "12",
+        "id": "611",
+        "name": "IFEDAYO",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "13",
+        "id": "612",
+        "name": "IFE EAST",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "15",
+        "id": "613",
+        "name": "IFE NORTH",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "16",
+        "id": "614",
+        "name": "IFE SOUTH",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "17",
+        "id": "615",
+        "name": "ILA",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "18",
+        "id": "616",
+        "name": "ILESA EAST",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "19",
+        "id": "617",
+        "name": "ILESA WEST",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "21",
+        "id": "618",
+        "name": "IREWOLE",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "22",
+        "id": "619",
+        "name": "ISOKAN",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "23",
+        "id": "620",
+        "name": "IWO",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "24",
+        "id": "621",
+        "name": "OBOKUN",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "25",
+        "id": "622",
+        "name": "ODO-OTIN",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "26",
+        "id": "623",
+        "name": "OLA-OLUWA",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "27",
+        "id": "624",
+        "name": "OLORUNDA",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "28",
+        "id": "625",
+        "name": "ORIADE",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "29",
+        "id": "626",
+        "name": "OROLU",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "30",
+        "id": "627",
+        "name": "OSOGBO",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "20",
+        "id": "770",
+        "name": "IREPODUN",
+        "stateId": 29,
+        "state_id": "30"
+      },
+      {
+        "abbreviation": "14",
+        "id": "772",
+        "name": "IFELODUN",
+        "stateId": 29,
+        "state_id": "30"
+      }
+    ],
+    "state_id": 29
+  },
+  "OYO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "628",
+        "name": "AFIJIO",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "02",
+        "id": "629",
+        "name": "AKINYELE",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "03",
+        "id": "630",
+        "name": "ATIBA",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "04",
+        "id": "631",
+        "name": "ATISBO",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "05",
+        "id": "632",
+        "name": "EGBEDA",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "06",
+        "id": "633",
+        "name": "IBADAN NORTH",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "07",
+        "id": "634",
+        "name": "IBADAN NORTH EAST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "08",
+        "id": "635",
+        "name": "IBADAN NORTH WEST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "09",
+        "id": "636",
+        "name": "IBADAN SOUTH-EAST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "10",
+        "id": "637",
+        "name": "IBADAN SOUTH WEST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "11",
+        "id": "638",
+        "name": "IBARAPA CENTRAL",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "12",
+        "id": "639",
+        "name": "IBARAPA EAST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "13",
+        "id": "640",
+        "name": "IBARAPA NORTH",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "14",
+        "id": "641",
+        "name": "IDO",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "15",
+        "id": "642",
+        "name": "IREPO",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "16",
+        "id": "643",
+        "name": "ISEYIN",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "17",
+        "id": "644",
+        "name": "ITESIWAJU",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "18",
+        "id": "645",
+        "name": "IWAJOWA",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "19",
+        "id": "646",
+        "name": "KAJOLA",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "20",
+        "id": "647",
+        "name": "LAGELU",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "21",
+        "id": "648",
+        "name": "OGBOMOSO NORTH",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "22",
+        "id": "649",
+        "name": "OGBOMOSO SOUTH",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "23",
+        "id": "650",
+        "name": "OGO-OLUWA",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "24",
+        "id": "651",
+        "name": "OLORUNSOGO",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "25",
+        "id": "652",
+        "name": "OLUYOLE",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "26",
+        "id": "653",
+        "name": "ONA-ARA",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "27",
+        "id": "654",
+        "name": "OORELOPE",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "28",
+        "id": "655",
+        "name": "ORI IRE",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "29",
+        "id": "656",
+        "name": "OYO EAST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "30",
+        "id": "657",
+        "name": "OYO WEST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "31",
+        "id": "658",
+        "name": "SAKI EAST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "32",
+        "id": "659",
+        "name": "SAKI WEST",
+        "stateId": 30,
+        "state_id": "31"
+      },
+      {
+        "abbreviation": "33",
+        "id": "773",
+        "name": "SURULERE",
+        "stateId": 30,
+        "state_id": "31"
+      }
+    ],
+    "state_id": 30
+  },
+  "PLATEAU": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "660",
+        "name": "BARIKIN LADI",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "03",
+        "id": "661",
+        "name": "BOKKOS",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "04",
+        "id": "662",
+        "name": "JOS EAST",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "05",
+        "id": "663",
+        "name": "JOS NORTH",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "06",
+        "id": "664",
+        "name": "JOS SOUTH",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "07",
+        "id": "665",
+        "name": "KANAM",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "08",
+        "id": "666",
+        "name": "KANKE",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "09",
+        "id": "667",
+        "name": "LANGTANG NORTH",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "10",
+        "id": "668",
+        "name": "LANGTANG SOUTH",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "11",
+        "id": "669",
+        "name": "MANGU",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "12",
+        "id": "670",
+        "name": "MIKANG",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "13",
+        "id": "671",
+        "name": "PANKSHIN",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "14",
+        "id": "672",
+        "name": "QUA'AN PAN",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "15",
+        "id": "673",
+        "name": "RIYOM",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "16",
+        "id": "674",
+        "name": "SHENDAM",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "17",
+        "id": "675",
+        "name": "WASE",
+        "stateId": 31,
+        "state_id": "32"
+      },
+      {
+        "abbreviation": "02",
+        "id": "769",
+        "name": "BASSA",
+        "stateId": 31,
+        "state_id": "32"
+      }
+    ],
+    "state_id": 31
+  },
+  "RIVERS": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "676",
+        "name": "ABUA-ODUAL",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "02",
+        "id": "677",
+        "name": "AHOADA EAST",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "03",
+        "id": "678",
+        "name": "AHOADA WEST",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "04",
+        "id": "679",
+        "name": "AKUKU TORU",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "05",
+        "id": "680",
+        "name": "ANDONI",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "06",
+        "id": "681",
+        "name": "ASARI-TORU",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "07",
+        "id": "682",
+        "name": "BONNY",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "08",
+        "id": "683",
+        "name": "DEGEMA",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "09",
+        "id": "684",
+        "name": "ELEME",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "10",
+        "id": "685",
+        "name": "EMOHUA",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "11",
+        "id": "686",
+        "name": "ETCHE",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "12",
+        "id": "687",
+        "name": "GOKANA",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "13",
+        "id": "688",
+        "name": "IKWERRE",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "14",
+        "id": "689",
+        "name": "KHANA",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "15",
+        "id": "690",
+        "name": "OBIO/AKPOR",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "16",
+        "id": "691",
+        "name": "OGBA/EGBEMA/NDONI",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "17",
+        "id": "692",
+        "name": "OGU/BOLO",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "18",
+        "id": "693",
+        "name": "OKRIKA",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "19",
+        "id": "694",
+        "name": "OMUMA",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "20",
+        "id": "695",
+        "name": "OPOBO/NEKORO",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "21",
+        "id": "696",
+        "name": "OYIGBO",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "22",
+        "id": "697",
+        "name": "PORT HARCOURT",
+        "stateId": 32,
+        "state_id": "33"
+      },
+      {
+        "abbreviation": "23",
+        "id": "698",
+        "name": "TAI",
+        "stateId": 32,
+        "state_id": "33"
+      }
+    ],
+    "state_id": 32
+  },
+  "SOKOTO": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "699",
+        "name": "BINJI",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "02",
+        "id": "700",
+        "name": "BODINGA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "03",
+        "id": "701",
+        "name": "DANGE/SHUNI",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "04",
+        "id": "702",
+        "name": "GADA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "05",
+        "id": "703",
+        "name": "GORONYO",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "06",
+        "id": "704",
+        "name": "GUDU",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "07",
+        "id": "705",
+        "name": "GWADABAWA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "08",
+        "id": "706",
+        "name": "ILLELA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "09",
+        "id": "707",
+        "name": "ISA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "10",
+        "id": "708",
+        "name": "KWARE",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "11",
+        "id": "709",
+        "name": "KEBBE",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "12",
+        "id": "710",
+        "name": "RABAH",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "13",
+        "id": "711",
+        "name": "S/BIRNI",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "14",
+        "id": "712",
+        "name": "SHAGARI",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "15",
+        "id": "713",
+        "name": "SILAME",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "16",
+        "id": "714",
+        "name": "SOKOTO NORTH",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "17",
+        "id": "715",
+        "name": "SOKOTO SOUTH",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "18",
+        "id": "716",
+        "name": "TAMBUWAL",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "19",
+        "id": "717",
+        "name": "TANGAZA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "20",
+        "id": "718",
+        "name": "TURETA",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "21",
+        "id": "719",
+        "name": "WAMAKKO",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "22",
+        "id": "720",
+        "name": "WURNO",
+        "stateId": 33,
+        "state_id": "34"
+      },
+      {
+        "abbreviation": "23",
+        "id": "721",
+        "name": "YABO",
+        "stateId": 33,
+        "state_id": "34"
+      }
+    ],
+    "state_id": 33
+  },
+  "TARABA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "722",
+        "name": "ARDO - KOLA",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "02",
+        "id": "723",
+        "name": "BALI",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "03",
+        "id": "724",
+        "name": "DONGA",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "04",
+        "id": "725",
+        "name": "GASHAKA",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "05",
+        "id": "726",
+        "name": "GASSOL",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "06",
+        "id": "727",
+        "name": "IBI",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "07",
+        "id": "728",
+        "name": "JALINGO",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "08",
+        "id": "729",
+        "name": "KARIM-LAMIDO",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "09",
+        "id": "730",
+        "name": "KURMI",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "10",
+        "id": "731",
+        "name": "LAU",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "11",
+        "id": "732",
+        "name": "SARDAUNA",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "12",
+        "id": "733",
+        "name": "TAKUM",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "13",
+        "id": "734",
+        "name": "USSA",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "14",
+        "id": "735",
+        "name": "WUKARI",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "15",
+        "id": "736",
+        "name": "YORRO",
+        "stateId": 34,
+        "state_id": "35"
+      },
+      {
+        "abbreviation": "16",
+        "id": "737",
+        "name": "ZING",
+        "stateId": 34,
+        "state_id": "35"
+      }
+    ],
+    "state_id": 34
+  },
+  "YOBE": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "738",
+        "name": "BADE",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "02",
+        "id": "739",
+        "name": "BURSARI",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "03",
+        "id": "740",
+        "name": "DAMATURU",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "04",
+        "id": "741",
+        "name": "FIKA",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "05",
+        "id": "742",
+        "name": "FUNE",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "06",
+        "id": "743",
+        "name": "GEIDAM",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "07",
+        "id": "744",
+        "name": "GUJBA",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "08",
+        "id": "745",
+        "name": "GULANI",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "09",
+        "id": "746",
+        "name": "JAKUSKO",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "10",
+        "id": "747",
+        "name": "KARASAWA",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "11",
+        "id": "748",
+        "name": "MACHINA",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "12",
+        "id": "749",
+        "name": "NANGERE",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "13",
+        "id": "750",
+        "name": "NGURU",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "14",
+        "id": "751",
+        "name": "POTISKUM",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "15",
+        "id": "752",
+        "name": "TARMUWA",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "16",
+        "id": "753",
+        "name": "YUNUSARI",
+        "stateId": 35,
+        "state_id": "36"
+      },
+      {
+        "abbreviation": "17",
+        "id": "754",
+        "name": "YUSUFARI",
+        "stateId": 35,
+        "state_id": "36"
+      }
+    ],
+    "state_id": 35
+  },
+  "ZAMFARA": {
+    "lgas": [
+      {
+        "abbreviation": "01",
+        "id": "755",
+        "name": "ANKA",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "02",
+        "id": "756",
+        "name": "BAKURA",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "03",
+        "id": "757",
+        "name": "BIRNIN MAGAJI",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "04",
+        "id": "758",
+        "name": "BUKKUYUM",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "05",
+        "id": "759",
+        "name": "BUNGUDU",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "06",
+        "id": "760",
+        "name": "GUMMI",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "07",
+        "id": "761",
+        "name": "GUSAU",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "08",
+        "id": "762",
+        "name": "KAURA NAMODA",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "09",
+        "id": "763",
+        "name": "MARADUN",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "10",
+        "id": "764",
+        "name": "MARU",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "11",
+        "id": "765",
+        "name": "SHINKAFI",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "12",
+        "id": "766",
+        "name": "TALATA MAFARA",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "13",
+        "id": "767",
+        "name": "TSAFE",
+        "stateId": 36,
+        "state_id": "37"
+      },
+      {
+        "abbreviation": "14",
+        "id": "768",
+        "name": "ZURMI",
+        "stateId": 36,
+        "state_id": "37"
+      }
+    ],
+    "state_id": 36
+  }
+}
