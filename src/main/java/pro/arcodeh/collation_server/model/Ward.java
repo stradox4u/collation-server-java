@@ -1,27 +1,28 @@
 package pro.arcodeh.collation_server.model;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
-import org.springframework.data.domain.Persistable;
+import org.springframework.data.annotation.Version;
 
-import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Ward implements Persistable<Integer>, Serializable {
+public class Ward {
+    @Id
     private Integer id;
     private String name;
     private String abbreviation;
     @Transient
     Lga lga;
-    @Transient
-    private boolean forceCreate = false;
+    @Version
+    private int version;
     private Set<PollingUnit> pollingUnits = new HashSet<>();
 
-    public Ward(Integer id, String name, String abbreviation, boolean forceCreate) {
+    public Ward(Integer id, String name, String abbreviation, int version) {
         this.id = id;
         this.name = name;
         this.abbreviation = abbreviation;
-        this.forceCreate = forceCreate;
+        this.version = version;
     }
 
     public Integer getId() {
@@ -48,6 +49,14 @@ public class Ward implements Persistable<Integer>, Serializable {
         this.abbreviation = abbreviation;
     }
 
+    public int getVersion() {
+        return version;
+    }
+
+    public void setVersion(int version) {
+        this.version = version;
+    }
+
     public Set<PollingUnit> getPollingUnits() {
         return pollingUnits;
     }
@@ -59,10 +68,5 @@ public class Ward implements Persistable<Integer>, Serializable {
     public void addPollingUnit(PollingUnit pollingUnit) {
         this.pollingUnits.add(pollingUnit);
         pollingUnit.ward = this;
-    }
-
-    @Override
-    public boolean isNew() {
-        return this.forceCreate;
     }
 }
