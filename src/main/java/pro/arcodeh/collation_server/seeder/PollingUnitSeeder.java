@@ -5,10 +5,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.asm.TypeReference;
 import org.springframework.stereotype.Component;
-import pro.arcodeh.collation_server.model.Lga;
-import pro.arcodeh.collation_server.model.PollingUnit;
-import pro.arcodeh.collation_server.model.State;
-import pro.arcodeh.collation_server.model.Ward;
+import pro.arcodeh.collation_server.model.*;
 import pro.arcodeh.collation_server.repository.LgaRepository;
 import pro.arcodeh.collation_server.repository.PollingUnitRepository;
 import pro.arcodeh.collation_server.repository.StateRepository;
@@ -18,22 +15,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 @Component
 public class PollingUnitSeeder implements SeederInterface{
     private final PollingUnitRepository pollingUnits;
-    private final WardRepository wards;
-    private final LgaRepository lgas;
     private final StateRepository states;
     private final ObjectMapper objectMapper;
     private JsonNode lgaData;
 
-    public PollingUnitSeeder(PollingUnitRepository pollingUnits, WardRepository wards, LgaRepository lgas, StateRepository states, ObjectMapper objectMapper) {
+    public PollingUnitSeeder(PollingUnitRepository pollingUnits, StateRepository states, ObjectMapper objectMapper) {
         this.pollingUnits = pollingUnits;
-        this.wards = wards;
-        this.lgas = lgas;
         this.states = states;
         this.objectMapper = objectMapper;
     }
@@ -53,17 +45,17 @@ public class PollingUnitSeeder implements SeederInterface{
         for(JsonNode state : statesData) {
             String stateName = this.cleanQuotedString(state.get("name").asText());
             int stateId = state.get("id").asInt();
-            State newState = new State(stateId, stateName, true);
+            State newState = new State(stateId, stateName, 0);
             JsonNode lgas = this.getLgaData(stateName).get("lgas");
             JsonNode statePus = allPus.get(String.valueOf(stateId));
 
             for(JsonNode lga : lgas) {
                 String lgaName = lga.get("name").asText();
-                Integer lgaId = lga.get("id").asInt();
+                int lgaId = lga.get("id").asInt();
                 String abbr = lga.get("abbreviation").asText();
                 JsonNode lgaPus = statePus.get(abbr);
 
-                Lga newLga = new Lga(lgaId, lgaName, abbr, true);
+                Lga newLga = new Lga(lgaId, lgaName, abbr, 0);
                 newState.addLga(newLga);
 
                 List<JsonNode> relevantWards = new ArrayList<>();
@@ -79,21 +71,27 @@ public class PollingUnitSeeder implements SeederInterface{
                     String wardAbbr = relevantWard.get("abbreviation").asText();
                     JsonNode wardPus = lgaPus.get(String.valueOf(wardId)).get("pollingUnits");
 
-                    Ward newWard = new Ward(wardId, wardName, wardAbbr, true);
+                    Ward newWard = new Ward(wardId, wardName, wardAbbr, 0);
                     newLga.addWard(newWard);
                     for(JsonNode pu : wardPus) {
                         String puName = pu.get("name").asText();
-                        Integer puId = pu.get("id").asInt();
+                        int puId = pu.get("id").asInt();
                         String puNumber = pu.get("abbreviation").asText();
                         String delimitation = pu.get("delimitation").asText();
 
-                        PollingUnit newPu = new PollingUnit(puId, delimitation, puNumber, puName, true);
-                        newWard.addPollingUnit(newPu);
+                        boolean puExists = this.pollingUnits.existsById(puId);
+
+                        if(!puExists) {
+                            PollingUnit newPu = new PollingUnit(puId, delimitation, puNumber, puName, 0);
+                            newWard.addPollingUnit(newPu);
+                        }
                     }
                 }
             }
             this.states.save(newState);
         }
+
+        System.out.println("Finished seeding states, lgas, wards and polling units");
     }
 
     private String cleanQuotedString(String input) {

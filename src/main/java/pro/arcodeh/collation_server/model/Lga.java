@@ -2,14 +2,12 @@ package pro.arcodeh.collation_server.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
-import org.springframework.data.domain.Persistable;
-import org.springframework.data.jdbc.core.mapping.AggregateReference;
+import org.springframework.data.annotation.Version;
 
-import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Lga implements Persistable<Integer>, Serializable {
+public class Lga {
     @Id
     private Integer id;
     private String name;
@@ -17,14 +15,14 @@ public class Lga implements Persistable<Integer>, Serializable {
     @Transient
     State state;
     private Set<Ward> wards = new HashSet<>();
-    @Transient
-    private boolean forceNew = false;
+    @Version
+    private Integer version;
 
-    public Lga (Integer id, String name, String abbreviation, boolean forceNew) {
+    public Lga (Integer id, String name, String abbreviation, int version) {
         this.id = id;
         this.name = name;
         this.abbreviation = abbreviation;
-        this.forceNew = forceNew;
+        this.version = version;
     }
 
     public Integer getId() {
@@ -51,6 +49,14 @@ public class Lga implements Persistable<Integer>, Serializable {
         this.abbreviation = abbreviation;
     }
 
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
+    }
+
     public Set<Ward> getWards() {
         return wards;
     }
@@ -62,10 +68,5 @@ public class Lga implements Persistable<Integer>, Serializable {
     public void addWard(Ward ward) {
         this.wards.add(ward);
         ward.lga = this;
-    }
-
-    @Override
-    public boolean isNew() {
-        return this.forceNew;
     }
 }

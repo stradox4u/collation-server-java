@@ -2,12 +2,11 @@ package pro.arcodeh.collation_server.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
-import org.springframework.data.domain.Persistable;
+import org.springframework.data.annotation.Version;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class PollingUnit implements Persistable<Integer>, Serializable {
+public class PollingUnit {
     @Id
     private Integer id;
     private String delimitation;
@@ -16,16 +15,16 @@ public class PollingUnit implements Persistable<Integer>, Serializable {
     private LocalDateTime createdAt;
     @Transient
     Ward ward;
-    @Transient
-    private boolean forceCreate = false;
+    @Version
+    private int version;
 
-    public PollingUnit(Integer id, String delimitation, String puNumber, String puName, boolean forceCreate) {
+    public PollingUnit(Integer id, String delimitation, String puNumber, String puName, int version) {
         this.id = id;
         this.puNumber = puNumber;
         this.puName = puName;
         this.delimitation = delimitation;
         this.createdAt = LocalDateTime.now();
-        this.forceCreate = forceCreate;
+        this.version = version;
     }
 
     public Integer getId() {
@@ -60,6 +59,14 @@ public class PollingUnit implements Persistable<Integer>, Serializable {
         this.puName = puName;
     }
 
+    public int getVersion() {
+        return version;
+    }
+
+    public void setVersion(int version) {
+        this.version = version;
+    }
+
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
@@ -74,10 +81,5 @@ public class PollingUnit implements Persistable<Integer>, Serializable {
 
     public void setWard(Ward ward) {
         this.ward = ward;
-    }
-
-    @Override
-    public boolean isNew() {
-        return this.forceCreate;
     }
 }
