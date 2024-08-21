@@ -1,10 +1,12 @@
 package pro.arcodeh.collation_server.election;
 
+import org.springframework.data.jdbc.core.mapping.AggregateReference;
 import org.springframework.stereotype.Component;
 import pro.arcodeh.collation_server.model.*;
 import pro.arcodeh.collation_server.repository.*;
 
 import java.util.List;
+import java.util.UUID;
 
 
 @Component
@@ -25,64 +27,55 @@ public class ElectionService {
 
     public Election createElection(Election election, List<Integer> partyIds, List<Integer> puIds) {
         Election savedElection = elections.save(election);
+        AggregateReference<Election, UUID> electionAgg = AggregateReference.to(savedElection.getId());
         for (Integer partyId : partyIds) {
-            PoliticalParty politicalParty = politicalParties.findById(partyId).orElse(null);
-            ElectionPoliticalParty party = new ElectionPoliticalParty(savedElection, politicalParty);
-            election.addPoliticalParty(party);
+            PoliticalParty politicalParty = this.politicalParties.findById(partyId).orElse(null);
+            if(politicalParty == null) {
+                throw new RuntimeException("Political party with Id: " + partyId + " not found");
+            }
+            AggregateReference<PoliticalParty, Integer> partyAgg = AggregateReference.to(politicalParty.getId());
+            ElectionPoliticalParty elParty = new ElectionPoliticalParty(electionAgg, partyAgg);
+            this.electionPoliticalParties.save(elParty);
         }
         for (Integer puId : puIds) {
-            PollingUnit pollingUnit = pollingUnits.findById(puId).orElse(null);
-            ElectionPollingUnit pu = new ElectionPollingUnit(savedElection, pollingUnit);
-            election.addPollingUnit(pu);
+            PollingUnit pollingUnit = this.pollingUnits.findById(puId).orElse(null);
+            if(pollingUnit == null) {
+                throw new RuntimeException("Polling unit with Id: " + puId + " not found");
+            }
+            AggregateReference<PollingUnit, Integer> puAgg = AggregateReference.to(pollingUnit.getId());
+            ElectionPollingUnit pu = new ElectionPollingUnit(electionAgg, puAgg);
+            this.electionPollingUnits.save(pu);
         }
-        return elections.save(election);
+        return savedElection;
     }
 
     public List<Election> getAllElections() {
-        return elections.findAll();
+        return this.elections.findAll();
     }
 
-    public Election getElection(String id) {
-        return elections.findById(id).orElse(null);
+    public Election getElection(UUID id) {
+        return this.elections.findById(id).orElse(null);
     }
 
-    public Election updateElection(String id, Election election) {
-        Election existingElection = elections.findById(id).orElse(null);
+    public Election updateElection(UUID id, Election election) {
+        Election existingElection = this.elections.findById(id).orElse(null);
         if (existingElection == null) {
             return null;
         }
         existingElection.setElectionType(election.getElectionType());
         existingElection.setElectionDate(election.getElectionDate());
-        return elections.save(existingElection);
+        return this.elections.save(existingElection);
     }
 
-    public void deleteElection(String id) {
-        elections.deleteById(id);
+    public void deleteElection(UUID id) {
+        this.elections.deleteById(id);
     }
 
-    public void removePoliticalParty(String electionId, Integer politicalPartyId) {
-        Election election = elections.findById(electionId).orElse(null);
-        if (election == null) {
-            return;
-        }
-        ElectionPoliticalParty politicalParty = electionPoliticalParties.findById(politicalPartyId).orElse(null);
-        if (politicalParty == null) {
-            return;
-        }
-        election.removePoliticalParty(politicalParty);
-        elections.save(election);
+    public void removePoliticalParty(UUID electionId, Integer politicalPartyId) {
+        this.electionPoliticalParties.removeByElectionAndPoliticalParty(electionId, politicalPartyId);
     }
 
-    public void removePollingUnit(String electionId, Integer pollingUnitId) {
-        Election election = elections.findById(electionId).orElse(null);
-        if (election == null) {
-            return;
-        }
-        ElectionPollingUnit pollingUnit = electionPollingUnits.findById(pollingUnitId).orElse(null);
-        if (pollingUnit == null) {
-            return;
-        }
-        election.removePollingUnit(pollingUnit);
-        elections.save(election);
+    public void removePollingUnit(UUID electionId, Integer pollingUnitId) {
+        this.electionPollingUnits.removeByElectionAndPollingUnit(electionId, pollingUnitId);
     }
 }

@@ -5,19 +5,23 @@ import org.springframework.data.annotation.Version;
 import org.springframework.data.jdbc.core.mapping.AggregateReference;
 
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.UUID;
 
 public class ElectionPoliticalParty {
     @Id
     private Integer id;
-    Election election;
-    PoliticalParty politicalParty;
+    private AggregateReference<Election, UUID> election;
+    private AggregateReference<PoliticalParty, Integer> politicalParty;
     private LocalDateTime createdAt;
     @Version
     private Integer version;
 
-    public ElectionPoliticalParty(Election election, PoliticalParty politicalParty) {
+    public ElectionPoliticalParty(AggregateReference<Election, UUID> election, AggregateReference<PoliticalParty, Integer> politicalParty) {
         this.election = election;
         this.politicalParty = politicalParty;
+        this.createdAt = LocalDateTime.now();
     }
 
     public Integer getId() {
@@ -28,19 +32,19 @@ public class ElectionPoliticalParty {
         this.id = id;
     }
 
-    public Election getElection() {
+    public AggregateReference<Election, UUID> getElection() {
         return election;
     }
 
-    public void setElection(Election election) {
+    public void setElection(AggregateReference<Election, UUID> election) {
         this.election = election;
     }
 
-    public PoliticalParty getPoliticalParty() {
+    public AggregateReference<PoliticalParty, Integer> getPoliticalParty() {
         return politicalParty;
     }
 
-    public void setPoliticalParty(PoliticalParty politicalParty) {
+    public void setPoliticalParty(AggregateReference<PoliticalParty, Integer> politicalParty) {
         this.politicalParty = politicalParty;
     }
 

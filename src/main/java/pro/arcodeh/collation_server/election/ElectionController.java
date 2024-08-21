@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import pro.arcodeh.collation_server.model.Election;
 
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/election")
@@ -24,37 +25,37 @@ public class ElectionController {
 
     @ResponseStatus(HttpStatus.ACCEPTED)
     @GetMapping("/{id}")
-    public Election getElectionById(String id) {
+    public Election getElectionById(@PathVariable UUID id) {
         return this.electionService.getElection(id);
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/")
-    public Election createElection(@Valid @RequestBody Election election, @Valid @RequestBody List<Integer> partyIds, @Valid @RequestBody List<Integer> puIds) {
-        return this.electionService.createElection(election, partyIds, puIds);
+    public Election createElection(@Valid @RequestBody ElectionCreationDto dto) {
+        return this.electionService.createElection(dto.election(), dto.partyIds(), dto.puIds());
     }
 
     @ResponseStatus(HttpStatus.ACCEPTED)
     @PatchMapping("/{id}")
-    public Election updateElection(@PathVariable String id, @Valid @RequestBody Election election) {
+    public Election updateElection(@PathVariable UUID id, @Valid @RequestBody Election election) {
         return this.electionService.updateElection(id, election);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{id}")
-    public void deleteElection(@PathVariable String id) {
+    public void deleteElection(@PathVariable UUID id) {
         this.electionService.deleteElection(id);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PostMapping("/{id}/political-party/{partyId}")
-    public void removePartyFromElection(@PathVariable String id, @PathVariable Integer partyId) {
+    public void removePartyFromElection(@PathVariable UUID id, @PathVariable Integer partyId) {
         this.electionService.removePoliticalParty(id, partyId);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PostMapping("/{id}/polling-unit/{puId}")
-    public void removePollingUnitFromElection(@PathVariable String id, @PathVariable Integer puId) {
+    public void removePollingUnitFromElection(@PathVariable UUID id, @PathVariable Integer puId) {
         this.electionService.removePollingUnit(id, puId);
     }
 }

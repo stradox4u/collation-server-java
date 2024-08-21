@@ -2,32 +2,35 @@ package pro.arcodeh.collation_server.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
+import org.springframework.data.jdbc.core.mapping.AggregateReference;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 public class ElectionPoliticalPartyPollingUnitResult {
     @Id
-    private String id;
+    private UUID id;
     private Integer voteCount;
     private LocalDateTime createdAt;
-    Election election;
-    ElectionPoliticalParty entrant;
-    ElectionPollingUnit pollingUnit;
+    private AggregateReference<Election, UUID> election;
+    private AggregateReference<ElectionPoliticalParty, Integer> entrant;
+    AggregateReference<ElectionPollingUnit, Integer> pollingUnit;
     @Version
     private Integer version;
 
-    public ElectionPoliticalPartyPollingUnitResult(Integer voteCount, Election election, ElectionPoliticalParty entrant, ElectionPollingUnit pollingUnit) {
+    public ElectionPoliticalPartyPollingUnitResult(Integer voteCount, AggregateReference<Election, UUID> election, AggregateReference<ElectionPoliticalParty, Integer> entrant, AggregateReference<ElectionPollingUnit, Integer> pollingUnit) {
         this.voteCount = voteCount;
         this.election = election;
         this.entrant = entrant;
         this.pollingUnit = pollingUnit;
+        this.createdAt = LocalDateTime.now();
     }
 
-    public String getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 
@@ -47,27 +50,27 @@ public class ElectionPoliticalPartyPollingUnitResult {
         this.createdAt = createdAt;
     }
 
-    public Election getElection() {
+    public AggregateReference<Election, UUID> getElection() {
         return election;
     }
 
-    public void setElection(Election election) {
+    public void setElection(AggregateReference<Election, UUID> election) {
         this.election = election;
     }
 
-    public ElectionPoliticalParty getEntrant() {
+    public AggregateReference<ElectionPoliticalParty, Integer> getEntrant() {
         return entrant;
     }
 
-    public void setEntrant(ElectionPoliticalParty entrant) {
+    public void setEntrant(AggregateReference<ElectionPoliticalParty, Integer> entrant) {
         this.entrant = entrant;
     }
 
-    public ElectionPollingUnit getPollingUnit() {
+    public AggregateReference<ElectionPollingUnit, Integer> getPollingUnit() {
         return pollingUnit;
     }
 
-    public void setPollingUnit(ElectionPollingUnit pollingUnit) {
+    public void setPollingUnit(AggregateReference<ElectionPollingUnit, Integer> pollingUnit) {
         this.pollingUnit = pollingUnit;
     }
 

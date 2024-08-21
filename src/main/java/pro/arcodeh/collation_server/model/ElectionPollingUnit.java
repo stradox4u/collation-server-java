@@ -2,21 +2,24 @@ package pro.arcodeh.collation_server.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
+import org.springframework.data.jdbc.core.mapping.AggregateReference;
 
 import java.time.LocalDate;
+import java.util.UUID;
 
 public class ElectionPollingUnit {
     @Id
     private Integer id;
-    Election election;
-    PollingUnit pollingUnit;
+    private AggregateReference<Election, UUID> election;
+    private AggregateReference<PollingUnit, Integer> pollingUnit;
     private LocalDate createdAt;
     @Version
     private Integer version;
 
-    public ElectionPollingUnit(Election election, PollingUnit pollingUnit) {
+    public ElectionPollingUnit(AggregateReference<Election, UUID> election, AggregateReference<PollingUnit, Integer> pollingUnit) {
         this.election = election;
         this.pollingUnit = pollingUnit;
+        this.createdAt = LocalDate.now();
     }
 
     public Integer getId() {
@@ -27,19 +30,19 @@ public class ElectionPollingUnit {
         this.id = id;
     }
 
-    public Election getElection() {
+    public AggregateReference<Election, UUID> getElection() {
         return election;
     }
 
-    public void setElection(Election election) {
+    public void setElection(AggregateReference<Election, UUID> election) {
         this.election = election;
     }
 
-    public PollingUnit getPollingUnit() {
+    public AggregateReference<PollingUnit, Integer> getPollingUnit() {
         return pollingUnit;
     }
 
-    public void setPollingUnit(PollingUnit pollingUnit) {
+    public void setPollingUnit(AggregateReference<PollingUnit, Integer> pollingUnit) {
         this.pollingUnit = pollingUnit;
     }
 
