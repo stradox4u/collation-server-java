@@ -3,6 +3,7 @@ package pro.arcodeh.collation_server.result;
 import org.springframework.data.jdbc.core.mapping.AggregateReference;
 import org.springframework.stereotype.Component;
 import pro.arcodeh.collation_server.NotFoundException;
+import pro.arcodeh.collation_server.WebsocketService;
 import pro.arcodeh.collation_server.model.Election;
 import pro.arcodeh.collation_server.model.ElectionPoliticalParty;
 import pro.arcodeh.collation_server.model.ElectionPoliticalPartyPollingUnitResult;
@@ -22,12 +23,14 @@ public class ResultService {
     private final ElectionRepository elections;
     private final ElectionPollingUnitRepository pollingUnits;
     private final ElectionPoliticalPartyRepository politicalParties;
+    private final WebsocketService websocketService;
 
-    public ResultService(ElectionPoliticalPartyPollingUnitResultRepository resultRepository, ElectionRepository elections, ElectionPollingUnitRepository pollingUnits, ElectionPoliticalPartyRepository politicalParties) {
+    public ResultService(ElectionPoliticalPartyPollingUnitResultRepository resultRepository, ElectionRepository elections, ElectionPollingUnitRepository pollingUnits, ElectionPoliticalPartyRepository politicalParties, WebsocketService websocketService) {
         this.resultRepository = resultRepository;
         this.elections = elections;
         this.pollingUnits = pollingUnits;
         this.politicalParties = politicalParties;
+        this.websocketService = websocketService;
     }
 
     public List<ElectionPoliticalPartyPollingUnitResult> getElectionResults(UUID electionId) {
@@ -60,10 +63,18 @@ public class ResultService {
             resultsArr.add(savedResult);
         }
 
+        this.updateAndSendResults(election);
         return resultsArr;
     }
 
     public List<ElectionPoliticalPartyPollingUnitResult> getPollingUnitResult (UUID electionId, Integer pollingUnitId) {
         return this.resultRepository.findByElectionAndPollingUnit(electionId, pollingUnitId);
+    }
+
+    private void updateAndSendResults(Election election) {
+        List<ResultWithPartyName> results = this.resultRepository.loadElectionResults(election.getId());
+        ResultUpdateDto resultUpdateDto = new ResultUpdateDto(election, results);
+        // Send results to the collation server
+        this.websocketService.sendResultsUpdate(resultUpdateDto);
     }
 }
