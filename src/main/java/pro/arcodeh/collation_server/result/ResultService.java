@@ -74,7 +74,7 @@ public class ResultService {
     private void updateAndSendResults(Election election) {
         List<ResultWithPartyName> results = this.resultRepository.loadElectionResults(election.getId());
         ResultUpdateDto resultUpdateDto = new ResultUpdateDto(election, results);
-        // Send results to the collation server
+        // Send updated results to clients using websocket
         this.websocketService.sendResultsUpdate(resultUpdateDto);
     }
 }
