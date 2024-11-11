@@ -15,4 +15,4 @@ public interface ElectionPoliticalPartyPollingUnitResultRepository extends ListC
 
     @Query("SELECT SUM(election_political_party_polling_unit_result.vote_count) AS vote_count, political_party.name as party_name FROM election_political_party_polling_unit_result INNER JOIN election_political_party ON election_political_party_polling_unit_result.entrant = election_political_party.id INNER JOIN political_party ON election_political_party.political_party = political_party.id WHERE election_political_party_polling_unit_result.election = :electionId GROUP BY political_party.name")
     List<ResultWithPartyName> loadElectionResults(UUID electionId);
-}
+}List

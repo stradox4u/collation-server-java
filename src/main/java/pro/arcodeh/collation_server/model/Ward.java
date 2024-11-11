@@ -1,4 +1,4 @@
-package pro.arcodeh.collation_server.model;
+docpackage pro.arcodeh.collation_server.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
